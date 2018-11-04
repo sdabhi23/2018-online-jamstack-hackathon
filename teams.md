@@ -309,6 +309,14 @@ First we will get upload logic figured out, chose firebase storeage. This upload
 * Seeking Teammates: No
 * [Project URL](https://github.com/sdabhi23/count-em-all)
 * Count'em All
+### Project Q&A:
+1. What are you going to build?  
+A web app where you can capture or upload a picture and get a count of all the people in the room.
+2. Which APIs do you plan to use? (You can use any APIs, not just Hackathon sponsor APIs.)  
+Netlify (functions and identity), Hasura, Cloudinary, Clarifai
+3. What is your plan to execute this idea?  
+The plan is to build an mvp first with a solid auth, where the user can initially just upload a picture, and then further add an option to capture one. We are using identity webhooks to send user data to Hasura once they have verified their accounts. For the UI we are using Material-UI and React. Cloudinary is for storing the images, and Hasura to store all the metadata and results.
+ ***
 
 # Thascii
 ### A facial recognition authentication SPA
