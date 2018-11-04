@@ -47,19 +47,6 @@ Copy the above code snippet in its entirety and add it to the BOTTOM of this doc
 
 ***
 
-# Emote Journal
-### A web application to track your mood.
-* Teammates:	* Teammates:
-    - Nicole Provan (@provanni#1363)
-    - Mariel Martinez (@Mares#3426)
-    - Ngoc Vuong (@Dragonza#2281)
-    - C Dharmateja (@dharmateja#2684)
-    	    
-* Seeking Teammates: No
-* [Project URL](https://github.com/provanni/2018-JAMstack-project)
-
-***
-
 # SunCodeFlower
 ### We created this team to participate in 2018 Online freeCodeCamp JAMstack Hackathon. Good luck to us!
 * **Teammates**:
@@ -102,20 +89,19 @@ We are building an expense tracking app
 We plan on using netlify-identity and hasura
 3. What is your plan to execute this idea?  
 We are going to use gatsby, react, and material-ui to build out the ui.  Then we will use netlify identity to manage users and then make calls to hasura.  Our goal is to finish the ui today and spend tomorrow on the logic and connecting the db.
-
 ***
 
-# DiseaseDetector
+# Coming Soon
 ### An AI app that detects and identifies diseases on skin and plants.
 * Teammates:
     - Alfred Conlan (@Alfred#6356)
-    - Dennis Demir (@Demird14#4032)
+    - Dennis Deamer (@Demird14#4032)
     - Joseph Eton (@etonjoe#5279)
     - Juan Garcia (@john</>#0065)
     - imtan007 (@Tanmay#3030)
 * Seeking Teammates: No
 * [Project URL](https://github.com/AlfredConlan/fccHackathonTeamProject)
-* Project Name (Disease Detector)
+* Project Name (comming soon)
 
 ***
 
@@ -142,11 +128,8 @@ We are going to use gatsby, react, and material-ui to build out the ui.  Then we
   - @Jarrod
   - @smakosh
   - @kBrew
-  - @CyberPutty
-  - @Mo
 * **Seeking Teammates**: No
 * [Project URL](https://github.com/appleJax/pawn-shopify)
-* [Live Site](https://pawn-shopify.netlify.com)
 * **Team Name**: Prestige Worldwide
 
 ***
@@ -183,19 +166,6 @@ We are going to use gatsby, react, and material-ui to build out the ui.  Then we
 * Seeking Teammates: No
 * [Project Website](https://romantic-euler-651676.netlify.com/)
 * [Project Repo](https://github.com/larongbingo/MAYN-MAYN-MAYN)
-### Project Q&A:
-1. What are you going to build?  
-A buy and sell website with auction.
-2. Which APIs do you plan to use? (You can use any APIs, not just Hackathon sponsor APIs.)  
-Hasura, Pilon, Netlify, more coming I think
-3. What is your plan to execute this idea?  
-Use Pilon to store product details, Hasura for the user credentials and chat (for the MINE!) 
-Then use netlify and netlify-lambda for hosting and auth.
-Problem is I do not know serverless, gatsby and webpack.
-So, this project will be incomplete, 100% guarenteed T_T
-
-The plan now is to build everything that needs to use the lambda thingy (Pilon & Hasura?)
-then build the frontend part.
 
 ***
 # FccFriendshipTest
@@ -278,14 +248,6 @@ then build the frontend part.
 * Seeking Teammates: No
 * [Project URL](https://github.com/kartik2406/ingredo-fit)
 * Project Name: IngredoFit
-### Project Q&A:
-1. What are you going to build?  
-We are going to build a web app that will allow users to get an idea of what makes up their meal, how much calories they are eating, nutrional value. The meals will be analyzed by Clarifai api, which will give us a list of ingredients.
-2. Which APIs do you plan to use? (You can use any APIs, not just Hackathon sponsor APIs.)  
- Clarifai for identifying ingredients. Firebase storage to store images uploaded by user.
-3. What is your plan to execute this idea?  
-First we will get upload logic figured out, chose firebase storeage. This uploaded image url is then sent to Clarifai for processing. Next we maintained a list of common food ingredients in our source file (We were supposed to use fauna for this but our data kept on vanishing from the db). With this our MVP would be ready, but it would be ugly. The next step is to beautify it and give it our style.
-
 
 ***
 
@@ -309,6 +271,15 @@ First we will get upload logic figured out, chose firebase storeage. This upload
 * Seeking Teammates: No
 * [Project URL](https://github.com/sdabhi23/count-em-all)
 * Count'em All
+### Project Q&A:
+1. What are you going to build?  
+A web app where you can capture or upload a picture and get a count of all the people in the room.
+2. Which APIs do you plan to use? (You can use any APIs, not just Hackathon sponsor APIs.)  
+Netlify (functions and identity), Hasura, Imgurl, Clarifai
+3. What is your plan to execute this idea?  
+The plan is to build an mvp first with a solid auth, where the user can initially just upload a picture, and then further add an option to capture one. We are using identity webhooks to send user data to Hasura once they have verified their accounts. For the UI we are using Material-UI and React. Imgurl is for storing the images, and Hasura to store all the metadata and results.
+
+***
 
 # Thascii
 ### A facial recognition authentication SPA
@@ -345,28 +316,7 @@ First we will get upload logic figured out, chose firebase storeage. This upload
     - Josh Medeski (@Big_Josh_7)
 * Seeking Teammates: No
 * [Project URL](https://github.com/electricgnome/smsRenewal)
-* Project Name: SMSRenewal
-
-***
-
-# JAMsnack
-### A web app to help making healthy eating decisions. Just take a picture of your food and see if it is healty or not.
-* Teammates:
-    - (@Korhan)
-    - (@Lexie)
-    - (@artoo)
-    - (@Jsifontez)
-    - (@Han)
-* Seeking Teammates: No
-* [Project URL](https://github.com/kakcura/JAMsnack)
-* Project Name: JAMsnack
-### Project Q&A:
-1. What are you going to build?  
-A web app to help making healthy eating decisions. Just take a picture of your food and see if it is healty or not.
-2. Which APIs do you plan to use? (You can use any APIs, not just Hackathon sponsor APIs.)  
-Clarifai
-3. What is your plan to execute this idea?  
-Happy Healty Snack Jamming and coding hard!!!
+* Project Name: Renewal Reminder
 
 ***
 
@@ -461,33 +411,4 @@ Happy Healty Snack Jamming and coding hard!!!
 * [Project URL](https://github.com/ktan114/JAMstack-Hackathon)
 * [GitHub URL](https://jamstack-hackathon-project.netlify.com/)
 
-
 ***
-
-# Project Name
-### Less than 240 Characters describing what we're building. Include external links here if desired
-* Teammates:
-    - Rebecca Yip
-    - Julie Jonak
-    - Nicky Chen 
-    - Roland Canuto
-    - Kyran McCann
-    - Tommy Collison
-
-* Seeking Teammates: No
-* [https://github.com/recipeshopper](https://github.com/recipeshopper)
-* Project Name: Recipe Shopper
-
-### Project Q&A:
-1. What are you going to build?  
-A recipe shopper app that pulls in ingredient lists for recipes you'd like to make and returns a shopping list.
-
-2. Which APIs do you plan to use? (You can use any APIs, not just Hackathon sponsor APIs.)  
-We're planning on implementing a Fauna API.
-
-3. What is your plan to execute this idea?  
-Our team is split between front- and back-end development, creating and styling the app.
-
-
-***
-
